@@ -1,14 +1,27 @@
-
 /*universal change */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*element selectors*/
+
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*class selectors */
 
 .header {
     padding: 20px;
@@ -25,7 +38,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /*replaced div with nav*/
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +56,6 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -87,7 +93,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /*redundancy part1*/
+
 .benefit-change {
     margin-bottom: 32px;
     color: #ffffff;
@@ -103,7 +111,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
 /*redundancy part 2*/
+
 .image-section {
     margin-bottom: 20px;
     padding: 50px;
